@@ -286,7 +286,7 @@ blockquote{
   font-style: normal;
   line-height: 1.5;
   display: inline-block;
-  margin-top: 28px;
+  margin-top: 0;
   position: absolute;
   margin-bottom: 0;
   right: 30px;
@@ -295,7 +295,7 @@ blockquote{
     font-style: italic;
 }
 .inner_section.welcome_section .contact_table_block{
-  margin: 35px 0 0 !important;
+  margin: 15px 0 0 !important;
 }
 /*contact_social*/
 .welcome_section .contact_social{
