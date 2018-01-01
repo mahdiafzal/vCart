@@ -1,0 +1,58 @@
+body {
+    font-family: IRANSans, IRANSansdn;
+}
+
+header .nav li a,
+header .nav_icon li i {
+    letter-spacing: 0;
+    text-transform: none;
+    transition: all ease-in-out .25s;
+}
+
+.post_header h3 {
+    font-family: IRANSansdn;
+    letter-spacing: 0;
+}
+
+.post_header h3:before {
+    margin: 3px 10px;
+}
+
+.post_header h3:after {
+    margin: 3px 10px;
+}
+
+.message blockquote, em {
+    font-style: normal;
+}
+
+.message blockquote p {
+    font-family: IRANSansDN;
+}
+
+.contact_table_block th,
+.contact_table_block td {
+    font-family: IRANSans;
+    letter-spacing: 0;
+}
+
+.text_left {
+    text-align: left;
+    color: #7b7b7b;
+    padding-left: 30px;
+    direction: ltr;
+}
+
+.button,
+button,
+input[type="submit"],
+input[type="reset"],
+input[type="button"] {
+    font-family: IRANSansDN;
+    letter-spacing: 0;
+}
+
+.contact_form input,
+.contact_form .form_input textarea {
+    font-size: 12px;
+}
