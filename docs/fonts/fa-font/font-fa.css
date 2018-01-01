@@ -54,7 +54,7 @@
 }
 
 @font-face {
-  font-family: iransansdn;
+  font-family: 'IRANSansdn';
   font-style: normal;
   font-weight: bold;
   src: url('./IranianSansDN/eot/iransansdnbold.eot');
@@ -65,7 +65,7 @@
 }
 
 @font-face {
-  font-family: iransansdn;
+  font-family: 'IRANSansdn';
   font-style: normal;
   font-weight: 300;
   src: url('./IranianSansDN/eot/iransansdnlight.eot');
@@ -76,7 +76,7 @@
 }
 
 @font-face {
-  font-family: iransansdn;
+  font-family: 'IRANSansdn';
   font-style: normal;
   font-weight: normal;
   src: url('./IranianSansDN/eot/iransansdn.eot');
