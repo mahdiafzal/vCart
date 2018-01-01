@@ -1,0 +1,17 @@
+{
+  "name": "vCart",
+  "version": "1.2.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "gulp",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Mahdi Afzal <mahdiafzal@gmail.com> (https://github.com/mahdiafzal)",
+  "devDependencies": {
+    "browser-sync": "^2.18.7",
+    "gulp": "^3.9.1",
+    "gulp-sourcemaps": "^2.4.1"
+  }
+}
