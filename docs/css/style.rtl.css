@@ -35,11 +35,8 @@ License URI: license.txt
 
  * -----------------------------------------------------------------------------
  */
-@import url(https://fonts.googleapis.com/css?family=Lato:400,300,300italic,400italic,700,700italic,900,900italic);
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,600,700,300italic,300);
-@import url(https://fonts.googleapis.com/css?family=Oswald:400,300,700);
-@import "css/base.rtl.css";
-@import "css/responsive.rtl.css";
+@import "base.rtl.css";
+@import "responsive.rtl.css";
 
 
 /*//////////////////////////////////////////
@@ -286,7 +283,7 @@ blockquote{
   font-style: normal;
   line-height: 1.5;
   display: inline-block;
-  margin-top: 28px;
+  margin-top: 0;
   position: absolute;
   margin-bottom: 0;
   left: 30px;
