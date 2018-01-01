@@ -85,3 +85,11 @@
        url('./IranianSansDN/woff/iransansdn.woff') format('woff'),
        url('./IranianSansDN/ttf/iransansdn.ttf') format('truetype');
 }
+
+.fa-sans {
+  font-family: 'IRANSans';
+}
+
+.fa-sansDN {
+  font-family: 'IRANSansDN';
+}
