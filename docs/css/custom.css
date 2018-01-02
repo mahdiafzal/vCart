@@ -1,5 +1,5 @@
 body {
-    font-family: IRANSans, IRANSansdn;
+    font-family: IRANSans, iransansdn;
 }
 
 header .nav li a,
@@ -9,8 +9,12 @@ header .nav_icon li i {
     transition: all ease-in-out .25s;
 }
 
+.name_and_job {
+    margin: -70px 20px 0 0;
+}
+
 .post_header h3 {
-    font-family: IRANSansdn;
+    font-family: iransansdn;
     letter-spacing: 0;
 }
 
@@ -22,17 +26,34 @@ header .nav_icon li i {
     margin: 3px 10px;
 }
 
-.message blockquote, em {
+.message blockquote,
+em {
     font-style: normal;
 }
 
 .message blockquote p {
-    font-family: IRANSansDN;
+    font-family: iransansdn;
+}
+
+.message blockquote .cite {
+    bottom: -25px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.message blockquote .cite a {
+    color: #7db701;
+}
+
+.message blockquote .cite a:hover {
+    color: #7db701;
+    cursor: default;
 }
 
 .contact_table_block th,
 .contact_table_block td {
-    font-family: IRANSans;
+    font-family: IRANSans !important;
     letter-spacing: 0;
 }
 
@@ -43,16 +64,50 @@ header .nav_icon li i {
     direction: ltr;
 }
 
+@media (max-width: 991px) {
+    .text_left {
+        padding-left: 0;
+    }
+}
+
 .button,
 button,
 input[type="submit"],
 input[type="reset"],
 input[type="button"] {
-    font-family: IRANSansDN;
+    font-family: iransansdn;
     letter-spacing: 0;
 }
 
 .contact_form input,
 .contact_form .form_input textarea {
     font-size: 12px;
+}
+
+
+/* responsive */
+
+.main_wrapper {
+    height: 545px;
+}
+
+@media only screen and (max-width: 1200px) {
+    .main_wrapper {
+        height: 515px !important;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .main_wrapper {
+        height: auto !important;
+        margin-bottom: 15px;
+    }
+}
+
+.social_icon span a.sapp {
+    background: url(../img/sapp-icon.png) center no-repeat;
+}
+
+.social_icon span a.sapp:hover {
+    background: url(../img/sapp-icon_honer.png) center no-repeat;
 }
