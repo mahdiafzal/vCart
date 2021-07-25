@@ -105,11 +105,17 @@
       text-align: center !important;
     }
     .profile_img {
+      position: relative;
       display: inline-block !important;
       width: 160px !important;
       height: 160px !important;
       border-radius: 100% !important;
       overflow: hidden !important;
+    }
+    .logo_image {
+      position: absolute;
+      left: 0;
+      max-width: 100%;
     }
     .name_and_job {
        margin: 30px 0 30px 0px !important;

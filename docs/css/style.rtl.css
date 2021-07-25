@@ -162,7 +162,12 @@ html, body{
   transition: all .3s ease;
 }
 .profile_img img:hover{
-  opacity: 0.6;
+  opacity: 0.9;
+}
+.logo_image {
+  position: absolute;
+  left: 0;
+  max-width: 100%;
 }
 
 /*//////////////////////////////////////////
